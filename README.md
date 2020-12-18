@@ -1,4 +1,4 @@
-# TIGER (A Model Based Test Generation Framework based on GraphWalker, an open source MBT tool, to generate test scripts)
+# TIGER (A Model Based Test Generation Framework based on GraphWalker)
 We have used the MBT concept for developing the framework i.e. transformation layer for concretization of abstract test cases and generation of test script.
 An interface has been developed to provide input files i.e Model file in Json or GraphML (as GraphWalker supports these two formats of model for generating abstract test cases)
 We have also defined mapping rules to concretize the abstract test cases. For test script generation we have excluded the 'ScriptCreator' class due to confidential information about the SUT developed by Bombardier Transporation AB, Sweden. However, a customize class can be added to generate test scripts of your own choice.
